@@ -31,6 +31,7 @@ values
     ("books", "книги", false, "литература, литра, лит-ра"),
     ("internet", "интернет", false, "инет, inet"),
     ("subscriptions", "подписки", false, "подписка"),
+    ("building", "стройка", true, "дом"),
     ("other", "прочее", true, "");
 
 insert into budget(codename, daily_limit) values ('base', 500);
